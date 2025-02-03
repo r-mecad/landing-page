@@ -17,11 +17,13 @@
     display: flex;
     padding-bottom: 62px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    padding-right: 32px;
 }
 
 .headlinks{
@@ -29,8 +31,10 @@
     display: flex;
     column-gap: 24px;
     justify-content: space-around;
+    margin-left: auto;
 
 }
+
 .headinfo{
     display: flex;
     justify-content: space-between;
@@ -39,17 +43,21 @@
 .headtext{
   color: white;
   flex-basis:45%;
+  flex-shrink: 1;
+  margin-right: 32px;
 }
 
-.headinfo image{
+.headinfo .image {
     flex-basis: 40%;
     flex-shrink: 1;
+    background-color: red;
 }
 
 .headtext h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 16px;
 }
 
 .headtext p{
@@ -59,7 +67,9 @@
 
 .sign-up1{
     background-color: #3882F6;
+    color: #F9FAF8;
     padding: 12px 32px;
     font-size: 16px;
     border-radius: 20px;
+    margin-top: 16px;
 }
