@@ -110,6 +110,11 @@
     border-radius: 16px;
 }
 
+.infoimg img{
+    width: 100%;
+    height: auto;
+}
+
 [class^="box-"]{
     display: flex;
     flex-direction: column;
@@ -118,6 +123,7 @@
     flex:0 1 auto;
     padding-bottom: 40px;
 }
+
 
 .quote{
     background-color: #E5E7EB;
@@ -146,34 +152,52 @@
     padding: 56px 18%;
 }
 
-.websignup .container{
-    background-color: #3882F6;
-    border-radius: 12px;
-    padding: 32px 16%;
-}
 
-.attention{
+
+.attentiontext{
     color:#F9FAF8;
     font-size: 24px;
 }
 
-.footsignup{
+.websignup .container{
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 32px 13%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color:#E5E7EB;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
-.signuptext{
+.attention{
     margin-right: 32px;
+    margin-bottom: 12px;
+    flex-grow:1;
 }
 
 .sign-up2{
+    background-color: #3882F6;
     color: #F9FAF8;
     border: 2px solid #F9FAF8;
+    font-size: 18px;
     border-radius: 8px;
     padding: 6px 24px;
     flex-shrink: 0;
-    align-self: flex-start;
+    align-self: flex-end;
 }
 
+.webfooter{
+    background-color: #1F2937;
+    color:#F9FAF8
+}
+
+.webfooter .container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.foottext{
+    
+}
