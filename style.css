@@ -38,7 +38,7 @@
 
 .headinfo{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -48,16 +48,18 @@
   flex-shrink: 1;
   margin-right: 48px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.headinfo img{
-    width: 50%;
-    min-width: 300px;
+.headinfo .headimg{
+    margin-top: 16px;
+    flex: 0 0.8 320px;
+}
+
+.headimg img{
+    width: 100%;
     height: auto;
-    align-self: flex-start;
-    border:3px solid peachpuff;
-    padding-left: auto;
-    flex: 0.7 1.5 320px;
 }
 
 .headtext h1{
@@ -76,9 +78,11 @@
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 12px 32px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 20px;
     margin-top: 16px;
+    align-self: center;
+    
 }
 
 
@@ -168,6 +172,7 @@
     color:#E5E7EB;
     font-size: 18px;
     flex-wrap: wrap;
+    min-width: 400px;
 }
 
 .attention{
